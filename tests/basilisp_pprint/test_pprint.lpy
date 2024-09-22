@@ -8,13 +8,16 @@
 
 ;; Author: Tom Faulhaber
 
-(ns clojure.test-clojure.pprint
-  (:refer-clojure :exclude [format])
-  (:require [clojure.string :as str])
-  (:use [clojure.test :only (deftest is are run-tests)]
-        [clojure.test-helper :only [platform-newlines]]
-        clojure.test-clojure.pprint.test-helper
-        clojure.pprint))
+;; Port to Basilisp started from
+;; https://github.com/clojure/clojure/blob/08a2d9bdd013143a87e50fa82e9740e2ab4ee2c2/test/clojure/test_clojure/pprint.clj
+(ns tests.basilisp-pprint.test-pprint
+  (:refer-basilisp :exclude [format])
+  (:require [basilisp.string :as str])
+  (:use [basilisp.test :only (deftest is are run-tests)]
+        tests.basilisp-pprint.pprint.test-helper
+        basilisp-pprint.pprint))
 
+;; (import os) (do  (.append sys/path (os/getcwd)))
 (load "pprint/test_cl_format")
 (load "pprint/test_pretty")
+
