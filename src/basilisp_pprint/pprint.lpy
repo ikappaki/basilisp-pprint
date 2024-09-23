@@ -11,6 +11,9 @@
 ;; Author: Tom Faulhaber
 ;; April 3, 2009
 
+;; Basilisp port: Ioannis Kappas
+;; September 2024
+
 ;; Port to Basilisp initiated from
 ;; https://github.com/clojure/clojure/blob/08a2d9bdd013143a87e50fa82e9740e2ab4ee2c2/src/clj/clojure/pprint.clj
 

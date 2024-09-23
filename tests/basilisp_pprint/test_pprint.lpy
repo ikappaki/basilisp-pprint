@@ -8,6 +8,9 @@
 
 ;; Author: Tom Faulhaber
 
+;; Basilisp port: Ioannis Kappas
+;; September 2024
+
 ;; Port to Basilisp started from
 ;; https://github.com/clojure/clojure/blob/08a2d9bdd013143a87e50fa82e9740e2ab4ee2c2/test/clojure/test_clojure/pprint.clj
 (ns tests.basilisp-pprint.test-pprint
