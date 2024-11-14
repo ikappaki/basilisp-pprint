@@ -1,15 +1,17 @@
 [tool.poetry]
 name = "basilisp-pprint"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["ikappaki <ikappaki@users.noreply.github.com>"]
 readme = "README.md"
 packages = [{include = "basilisp_pprint", from = "src"}]
 
-[tool.poetry.dependencies]
-python = "^3.8"
-basilisp = "^0.2.4"
+[project.urls]
+Homepage = "https://github.com/ikappaki/basilisp-pprint"
 
+[tool.poetry.dependencies]
+python = "^3.9"
+basilisp = "^0.3.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.3"
