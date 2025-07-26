@@ -4,7 +4,8 @@
 
 ## 0.1.2
 
-- Relax basilisp version range tolerance.
+- Upgraded min basilisp version to 0.4.0.
+- Replaced custom proxy function with the built-in `basilip.core/proxy`.
 
 ## 0.1.1
 
