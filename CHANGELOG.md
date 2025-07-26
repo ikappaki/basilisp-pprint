@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.1.2
+
 - Relax basilisp version range tolerance.
 
 ## 0.1.1
