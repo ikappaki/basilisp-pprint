@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-## 0.1.2
+## 0.2.0
 
 - Upgraded min basilisp version to 0.4.0.
 - Replaced custom proxy function with the built-in `basilip.core/proxy`.
